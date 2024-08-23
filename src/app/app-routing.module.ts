@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'calc', component: CalcComponent },
+  { path: '**', redirectTo: 'home' }, // default page
 ];
 
 @NgModule({
