@@ -1,0 +1,16 @@
+<app-header></app-header>
+<!-- <button (click)="ActiveComponent = 'home'">Home</button>
+<button (click)="ActiveComponent = 'about'">About</button>
+<button (click)="ActiveComponent = 'calc'">Calculator</button>
+
+<div class="container" [ngSwitch]="ActiveComponent">
+  <app-about *ngSwitchCase="'about'"></app-about>
+  <app-calc *ngSwitchCase="'calc'"></app-calc>
+  <app-home *ngSwitchCase="'home'"></app-home>
+</div> -->
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="footer">NTG EG</div>
